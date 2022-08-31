@@ -600,7 +600,7 @@ contract Voting is IForwarder, AragonApp {
     */
     function _canVote(uint256 _voteId, address _voter) internal view returns (bool) {
         Vote storage vote_ = votes[_voteId];
-        return _isVoteOpen(vote_) && token.balanceOfAt(_voter, vote_.snapshotBlock) > 0 && block.timestamp.sub(votingTime) >= lastVotingTimes[_sender];
+        return _isVoteOpen(vote_) && token.balanceOfAt(_voter, vote_.snapshotBlock) > 0 && block.timestamp.sub(votingTime) >= lastVotingTimes[_voter];
     }
 
     /**
