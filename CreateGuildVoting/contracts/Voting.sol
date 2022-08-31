@@ -80,6 +80,8 @@ contract Voting is IForwarder, AragonApp {
     uint256 public minGuildBalance;
     uint256 public minTime;
 
+    uint128 public constant votingTime = 86400;
+
     bool public enableVoteCreation;
 
     // We are mimicing an array, we use a mapping instead to make app upgrade more graceful
@@ -87,6 +89,7 @@ contract Voting is IForwarder, AragonApp {
     uint256 public votesLength;
 
     mapping(address => uint256) public lastCreateVoteTimes;
+    mapping(address => uint256) public lastVotingTimes;
 
     event StartVote(uint256 indexed voteId, address indexed creator, string metadata, uint256 minBalance, uint256 minGuildBalance, uint256 minTime, uint256 totalSupply, uint256 creatorVotingPower);
     event CastVote(uint256 indexed voteId, address indexed voter, bool supports, uint256 stake);
@@ -524,6 +527,8 @@ contract Voting is IForwarder, AragonApp {
           emit CastVote(_voteId, _voter, false, nay);
         }
 
+        lastVotingTimes[msg.sender] = getTimestamp64();
+
         if (_executesIfDecided && _canExecute(_voteId)) {
             // We've already checked if the vote can be executed with `_canExecute()`
             _unsafeExecuteVote(_voteId);
@@ -595,7 +600,7 @@ contract Voting is IForwarder, AragonApp {
     */
     function _canVote(uint256 _voteId, address _voter) internal view returns (bool) {
         Vote storage vote_ = votes[_voteId];
-        return _isVoteOpen(vote_) && token.balanceOfAt(_voter, vote_.snapshotBlock) > 0;
+        return _isVoteOpen(vote_) && token.balanceOfAt(_voter, vote_.snapshotBlock) > 0 && block.timestamp.sub(votingTime) >= lastVotingTimes[_sender];
     }
 
     /**
