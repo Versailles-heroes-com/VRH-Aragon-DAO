@@ -143,6 +143,9 @@ const config: HardhatUserConfig = {
   mocha: {
     timeout: 0,
   },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_KEY || "",
+  },
   external: process.env.HARDHAT_FORK
     ? {
         deployments: {
