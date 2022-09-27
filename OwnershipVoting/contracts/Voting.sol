@@ -547,7 +547,7 @@ contract Voting is IForwarder, AragonApp {
             return false;
         }
         // Has min quorum?
-        if (!_isValuePct(vote_.yea, vote_.votingPower, vote_.minAcceptQuorumPct)) {
+        if (!_isValuePct(totalVotes, vote_.votingPower, vote_.minAcceptQuorumPct)) {
             return false;
         }
 
