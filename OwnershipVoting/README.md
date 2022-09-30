@@ -1,7 +1,7 @@
 ### Ownership Voting(Aragon Voting fork)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/SPECS.md)
+* [Voting.sol](contracts/Voting.sol)
+* [SPECS](SPECS.md)
 
 
 ## Description
