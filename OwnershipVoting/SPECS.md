@@ -8,7 +8,7 @@ at least `minTime` has passed between user's last vote and time now when they wa
     given that the token holder has the required `minBalance` voting power
     
     The voting power of a token holder is calculated by `tokens locked` * `lock time`
-    as specified in [Versailles DAO Paper](https://github.com/Versailles-heroes-com/versailles-heroes-DAO/blob/master/doc/README.md)
+    as specified in [Versailles DAO Paper](https://github.com/Versailles-heroes-com/versailles-heroes-DAO/blob/main/README.md)
 * Min time
     Should allow a token holder to create a new vote only if there is at least `minTime` passed between their last vote and time now when they want to create a new vote
 

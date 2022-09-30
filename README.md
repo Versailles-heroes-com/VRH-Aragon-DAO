@@ -4,11 +4,11 @@
 
 * [Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/contracts/Voting.sol)
 
-# [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/SPECS.md)
+* [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/SPECS.md)
 
-# [MohTokenVoting](./MohTokenVoting/README.md)
+# [MohOwnershipVoting](./MohOwnershipVoting/README.md)
 
-* [Voting.sol](https://github.com/Versailles-heroes-com/gVRH-Aragon-DAO/blob/main/MohOwnershipVoting/contracts/Voting.sol)
+* [Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohOwnershipVoting/contracts/Voting.sol)
 
 * [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohOwnershipVoting/SPECS.md)
 
@@ -16,4 +16,4 @@
 
 * [Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/contracts/Voting.sol)
 
-* [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAOblob/main/OwnershipVoting/SPECS.md)
+* [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/SPECS.md)
