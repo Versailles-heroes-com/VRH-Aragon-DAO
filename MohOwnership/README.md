@@ -1,12 +1,12 @@
-### Ownership Voting(Aragon Voting fork)
+### Moh Ownership Voting(Aragon Voting fork)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/SPECS.md)
+[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohOwnership/SPECS.md)
+[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohOwnership/SPECS.md)
 
 
 ## Description
 
-Ownership Voting app is a fork of Aragon Voting App with the following additions:
+Moh Token Voting app is a fork of Aragon Voting App with the following additions:
 
 * Added minimum balance `minBalance` a user must have in order to successful vote
 
@@ -54,8 +54,8 @@ ipfs-upload-client --id <project-id>  --secret <project-secret> dist
 verify aragon app from aragon-cli
 
 ```shell
-aragon apm versions ownership-voting.open.aragonpm.eth --env aragon:rinkeby
-aragon apm info ownership-voting.open.aragonpm.eth --env aragon:rinkeby --ipfs-rpc https://ipfs.infura-ipfs.io/:5001 --ipfs-gateway https://ipfs.infura-ipfs.io/ipfs
+aragon apm versions mohtoken-voting.open.aragonpm.eth --env aragon:rinkeby
+aragon apm info mohtoken-voting.open.aragonpm.eth --env aragon:rinkeby --ipfs-rpc https://ipfs.infura-ipfs.io/:5001 --ipfs-gateway https://ipfs.infura-ipfs.io/ipfs
 ```
 
 ## Installing the app in a DAO

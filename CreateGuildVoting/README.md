@@ -1,7 +1,7 @@
 ### Guild Create Voting(Aragon Voting fork)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/guild-aragon-voting/blob/master/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/guild-aragon-voting/blob/master/SPECS.md)
+[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/contracts/Voting.sol)
+[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/SPECS.md)
 
 
 ## Description
