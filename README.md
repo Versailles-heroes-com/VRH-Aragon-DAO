@@ -1,16 +1,19 @@
-### Guild Create Voting(Aragon Voting fork)
+### Voting App(Aragon Voting fork)
 
-* [CreateGuildVoting](./CreateGuildVoting/README.md)
+# [CreateGuildVoting](./CreateGuildVoting/README.md)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/SPECS.md)
+* [Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/contracts/Voting.sol)
 
-*  [MohTokenVoting](./MohTokenVoting/README.md)
+# [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/CreateGuildVoting/SPECS.md)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/gVRH-Aragon-DAO/blob/main/MohTokenVoting/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohTokenVoting/SPECS.md)
+# [MohTokenVoting](./MohTokenVoting/README.md)
 
-*  [OwnershipVoting](./OwnershipVoting/README.md)
+* [Voting.sol](https://github.com/Versailles-heroes-com/gVRH-Aragon-DAO/blob/main/MohOwnershipVoting/contracts/Voting.sol)
 
-[Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/contracts/Voting.sol)
-[SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAOblob/main/OwnershipVoting/SPECS.md)
+* [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/MohOwnershipVoting/SPECS.md)
+
+# [OwnershipVoting](./OwnershipVoting/README.md)
+
+* [Voting.sol](https://github.com/Versailles-heroes-com/VRH-Aragon-DAO/blob/main/OwnershipVoting/contracts/Voting.sol)
+
+* [SPECS](https://github.com/Versailles-heroes-com/VRH-Aragon-DAOblob/main/OwnershipVoting/SPECS.md)
