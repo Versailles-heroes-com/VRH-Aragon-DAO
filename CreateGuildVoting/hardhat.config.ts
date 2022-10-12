@@ -103,6 +103,11 @@ const config: HardhatUserConfig = {
       accounts: accounts("rinkeby"),
       ensRegistry: "0x98Df287B6C145399Aaa709692c8D308357bC085D",
     },
+    goerli: {
+      url: node_url("goerli"),
+      accounts: accounts("goerli"),
+      ensRegistry: "0x07b258ed4a61e72c4910552f73436b8a5bd6b9b1",
+    },
     xdai: {
       url: node_url("xdai"),
       accounts: accounts("xdai"),
